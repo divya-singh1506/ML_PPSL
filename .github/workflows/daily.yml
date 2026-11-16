@@ -1,8 +1,8 @@
-name: AU_CC Daily Ads + AppsFlyer to Sheets
+name: ML Daily Ads + AppsFlyer to Sheets
 
 on:
   schedule:
-    - cron: '30 1 * * *'     # 01:30 UTC = 07:00 IST
+    - cron: '0 2 * * *'      # 02:00 UTC = 07:30 IST (30 min after AU_CC)
   workflow_dispatch:          # "Run workflow" button
 
 jobs:
